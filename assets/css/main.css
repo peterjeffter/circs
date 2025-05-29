@@ -3223,7 +3223,7 @@ input, select, textarea {
 
 		#wrapper:before {
 			background-attachment: fixed;
-			background-color: #49fcd4;
+			background-color: #32b121;
 			background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500'%3E%3Ccircle cx='150' cy='150' r='120' fill='rgba(67, 217, 184, 0.25)' /%3E%3Ccircle cx='300' cy='200' r='100' fill='rgba(67, 217, 184, 0.25)' /%3E%3Ccircle cx='200' cy='350' r='90' fill='rgba(67, 217, 184, 0.25)' /%3E%3C/svg%3E");
 			background-position: -50% 10%;
 			background-repeat: repeat-y;
@@ -3587,7 +3587,7 @@ input, select, textarea {
 
 					#wrapper > section > header {
 						background-attachment: fixed;
-						background-color: #49fcd4;
+						background-color: #32b121;
 						background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500'%3E%3Ccircle cx='150' cy='150' r='120' fill='rgba(67, 217, 184, 0.25)' /%3E%3Ccircle cx='300' cy='200' r='100' fill='rgba(67, 217, 184, 0.25)' /%3E%3Ccircle cx='200' cy='350' r='90' fill='rgba(67, 217, 184, 0.25)' /%3E%3C/svg%3E");
 						background-position: 25% 50%;
 						background-repeat: repeat-y;
