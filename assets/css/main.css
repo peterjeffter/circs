@@ -3223,8 +3223,8 @@ input, select, textarea {
 
 		#wrapper:before {
 			background-attachment: fixed;
-			background-color: #32b121;
-			background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500'%3E%3Ccircle cx='150' cy='150' r='120' fill='rgba(67, 217, 184, 0.25)' /%3E%3Ccircle cx='300' cy='200' r='100' fill='rgba(67, 217, 184, 0.25)' /%3E%3Ccircle cx='200' cy='350' r='90' fill='rgba(67, 217, 184, 0.25)' /%3E%3C/svg%3E");
+			background-color: #67b45d;
+			background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500'%3E%3Ccircle cx='150' cy='150' r='120' fill='rgba(219, 211, 197, 0.363)' /%3E%3Ccircle cx='300' cy='200' r='100' fill='rgba(219, 211, 197, 0.363)' /%3E%3Ccircle cx='200' cy='350' r='90' fill='rgba(219, 211, 197, 0.363)' /%3E%3C/svg%3E");
 			background-position: -50% 10%;
 			background-repeat: repeat-y;
 			background-size: 75% auto;
@@ -3291,7 +3291,7 @@ input, select, textarea {
 		}
 
 			#wrapper > section > header:before {
-				background: #43d9b8;
+				background: rgba(194, 235, 186, 0.808);
 				content: '';
 				display: block;
 				margin-top: 1rem;
@@ -3304,7 +3304,7 @@ input, select, textarea {
 			}
 
 				#wrapper > section > header h1:before, #wrapper > section > header h2:before {
-					background: #43d9b8;
+					background: rgba(194, 235, 186, 0.808);
 					content: '';
 					display: block;
 					height: 2px;
@@ -3313,7 +3313,7 @@ input, select, textarea {
 				}
 
 				#wrapper > section > header h1:after, #wrapper > section > header h2:after {
-					background: #43d9b8;
+					background: rgba(194, 235, 186, 0.808);
 					border-radius: 0.5rem;
 					content: '';
 					display: block;
@@ -3370,7 +3370,7 @@ input, select, textarea {
 			}
 
 			#wrapper > section:last-of-type > header:after {
-				background: #43d9b8;
+				background: #67b45d;
 				border-radius: 0.5rem;
 				bottom: -1.5rem;
 				content: '';
@@ -3587,8 +3587,8 @@ input, select, textarea {
 
 					#wrapper > section > header {
 						background-attachment: fixed;
-						background-color: #32b121;
-						background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500'%3E%3Ccircle cx='150' cy='150' r='120' fill='rgba(67, 217, 184, 0.25)' /%3E%3Ccircle cx='300' cy='200' r='100' fill='rgba(67, 217, 184, 0.25)' /%3E%3Ccircle cx='200' cy='350' r='90' fill='rgba(67, 217, 184, 0.25)' /%3E%3C/svg%3E");
+						background-color: #67b45d;
+						background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500'%3E%3Ccircle cx='150' cy='150' r='120' fill='rgba(219, 211, 197, 0.363)' /%3E%3Ccircle cx='300' cy='200' r='100' fill='rgba(219, 211, 197, 0.363)' /%3E%3Ccircle cx='200' cy='350' r='90' fill='rgba(219, 211, 197, 0.363)' /%3E%3C/svg%3E");
 						background-position: 25% 50%;
 						background-repeat: repeat-y;
 						background-size: 40rem auto;
