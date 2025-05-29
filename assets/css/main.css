@@ -221,6 +221,7 @@ input, select, textarea {
 		line-height: 1.1;
 		margin: 0 0 1.5rem 0;
 		text-transform: none;
+		color: white;
 	}
 
 	h2 {
@@ -3236,6 +3237,7 @@ input, select, textarea {
 			top: 0;
 			width: 50vw;
 			z-index: -1;
+			color: white;
 		}
 
 		#wrapper section {
@@ -3265,6 +3267,7 @@ input, select, textarea {
 					letter-spacing: 0.175em;
 					line-height: 2.5;
 					text-transform: uppercase;
+					color: white;
 				}
 
 				#wrapper section > header ul.actions {
@@ -3321,6 +3324,7 @@ input, select, textarea {
 					position: absolute;
 					top: 0.75rem;
 					width: 0.5rem;
+					
 				}
 
 			#wrapper > section > header h1 {
