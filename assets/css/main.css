@@ -26,12 +26,10 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;
 	
 }
-header{
+header h2{
 	color: white;
 }
-footer a, footer span{
-	color: white;
-}
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -153,7 +151,25 @@ input, select, textarea {
 			html {
 				font-size: 12pt;
 			}
-
+			header h3{
+				color: black;
+			}
+			
+	
+		}
+		@media screen and (min-width: 1000px) {
+			header h3{
+				color: white;
+			}
+			footer a{
+				color: white;
+			}
+			footer span{
+				color: white;
+			}
+			footer h3{
+				color: white;
+			}
 		}
 
 		@media screen and (max-width: 480px) {
@@ -1965,30 +1981,21 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
-		input[type="submit"].primary,
-		input[type="reset"].primary,
-		input[type="button"].primary,
-		button.primary,
+		
 		.button.primary {
-			background-color: #49fcd4;
+			background-color: #b46a2d;
 			box-shadow: none;
 			color: #000000 !important;
+			margin-top: 20px;
 		}
 
-			input[type="submit"].primary:hover,
-			input[type="reset"].primary:hover,
-			input[type="button"].primary:hover,
-			button.primary:hover,
+			
 			.button.primary:hover {
-				background-color: #93ffe7;
+				background-color: #b67c4c;
 			}
 
-			input[type="submit"].primary:active,
-			input[type="reset"].primary:active,
-			input[type="button"].primary:active,
-			button.primary:active,
 			.button.primary:active {
-				background-color: #44f2cb;
+				background-color: grey;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -2027,81 +2034,11 @@ input, select, textarea {
 
 /* Form */
 
-	form {
+	.inputs {
 		margin: 0 0 2rem 0;
+		display: grid;
+		row-gap: 2rem;
 	}
-
-		form > :last-child {
-			margin-bottom: 0;
-		}
-
-		form > .fields {
-			display: -moz-flex;
-			display: -webkit-flex;
-			display: -ms-flex;
-			display: flex;
-			-moz-flex-wrap: wrap;
-			-webkit-flex-wrap: wrap;
-			-ms-flex-wrap: wrap;
-			flex-wrap: wrap;
-			margin: -2rem 0 2rem -2rem;
-			width: calc(100% + 4rem);
-		}
-
-			form > .fields > .field {
-				-moz-flex-grow: 0;
-				-webkit-flex-grow: 0;
-				-ms-flex-grow: 0;
-				flex-grow: 0;
-				-moz-flex-shrink: 0;
-				-webkit-flex-shrink: 0;
-				-ms-flex-shrink: 0;
-				flex-shrink: 0;
-				padding: 2rem 0 0 2rem;
-				width: calc(100% - 2rem);
-			}
-
-				form > .fields > .field > :last-child {
-					margin-bottom: 0;
-				}
-
-				form > .fields > .field.half {
-					width: calc(50% - 1rem);
-				}
-
-				form > .fields > .field.third {
-					width: calc(100%/3 - 0.66667rem);
-				}
-
-				form > .fields > .field.quarter {
-					width: calc(25% - 0.5rem);
-				}
-
-		@media screen and (max-width: 480px) {
-
-			form > .fields {
-				margin: -1.5rem 0 2rem -1.5rem;
-				width: calc(100% + 3rem);
-			}
-
-				form > .fields > .field {
-					padding: 1.5rem 0 0 1.5rem;
-					width: calc(100% - 1.5rem);
-				}
-
-					form > .fields > .field.half {
-						width: calc(100% - 1.5rem);
-					}
-
-					form > .fields > .field.third {
-						width: calc(100% - 1.5rem);
-					}
-
-					form > .fields > .field.quarter {
-						width: calc(100% - 1.5rem);
-					}
-
-		}
 
 	input[type="text"],
 	input[type="password"],
