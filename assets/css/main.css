@@ -162,16 +162,20 @@ input, select, textarea {
 			header h3{
 				color: black;
 			}
-			.titlediv{
-				align-items: last baseline;
-				flex-direction: row;
-			}
+			
 			.companylogo{
 				width: 35px;
-				margin-left: 0.5rem;
+				margin-left: 0.3rem;
 			}
 	
 		}
+		@media screen and (max-width: 1150px){
+			.titlediv{
+							align-items: last baseline;
+							flex-direction: row;
+						}
+		}
+
 		@media screen and (min-width: 1000px) {
 			header h3{
 				color: white;
