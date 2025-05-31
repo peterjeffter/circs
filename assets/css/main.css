@@ -30,6 +30,14 @@ header h2{
 	color: white;
 }
 
+.companylogo{
+	width: 60px;
+}
+.titlediv{
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -154,7 +162,14 @@ input, select, textarea {
 			header h3{
 				color: black;
 			}
-			
+			.titlediv{
+				align-items: last baseline;
+				flex-direction: row;
+			}
+			.companylogo{
+				width: 35px;
+				margin-left: 0.5rem;
+			}
 	
 		}
 		@media screen and (min-width: 1000px) {
@@ -170,6 +185,7 @@ input, select, textarea {
 			footer h3{
 				color: white;
 			}
+			
 		}
 
 		@media screen and (max-width: 480px) {
@@ -1908,8 +1924,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #2ee4bb;
-			color: #2ee4bb !important;
+			box-shadow: inset 0 0 0 2px #ff7043;
+			color: #ff7043 !important;
 		}
 
 		input[type="submit"]:active,
@@ -1918,8 +1934,8 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: rgba(73, 252, 212, 0.25);
-			box-shadow: inset 0 0 0 2px #2ee4bb;
-			color: #2ee4bb !important;
+			box-shadow: inset 0 0 0 2px #ff7043;
+			color: #ff7043 !important;
 		}
 
 		input[type="submit"].small,
@@ -1983,7 +1999,7 @@ input, select, textarea {
 
 		
 		.button.primary {
-			background-color: #b46a2d;
+			background-color: #ff7043;
 			box-shadow: none;
 			color: #000000 !important;
 			margin-top: 20px;
@@ -2299,7 +2315,10 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-	}
+		background-image: url('bg.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		}
 
 		.image img {
 			display: block;
@@ -3169,7 +3188,7 @@ input, select, textarea {
 
 		#wrapper:before {
 			background-attachment: fixed;
-			background-color: #67b45d;
+			background-color: #82cc78;
 			background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500'%3E%3Ccircle cx='150' cy='150' r='120' fill='rgba(219, 211, 197, 0.363)' /%3E%3Ccircle cx='300' cy='200' r='100' fill='rgba(219, 211, 197, 0.363)' /%3E%3Ccircle cx='200' cy='350' r='90' fill='rgba(219, 211, 197, 0.363)' /%3E%3C/svg%3E");
 			background-position: -50% 10%;
 			background-repeat: repeat-y;
