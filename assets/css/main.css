@@ -2313,11 +2313,12 @@ input, select, textarea {
 
 	.image {
 		border: 0;
-		display: inline-block;
+		display: flex;
 		position: relative;
 		background-image: url('bg.png');
 		background-size: contain;
 		background-repeat: no-repeat;
+		background-position: center;
 		}
 
 		.image img {
@@ -2487,7 +2488,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 			}
-
+			
 /* List */
 
 	ol {
